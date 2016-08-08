@@ -7,7 +7,6 @@ gitの管理を始める
 
 $ git status
 
-
 いまのファイルの状態を確認する
 
 
@@ -41,6 +40,16 @@ $ git commit -m “コミットメッセージ”
 メッセージ付きで現在のファイルの状況を保存する(commit)
 
 
+$ git remote add origin プロジェクトのsshアドレス
+
+githubのリポジトリとローカルを紐づける
+
+
+$ git push -u origin master
+
+最初だけ-uを使ってoriginにmasterをpushすることを明示する
+
+
 $ git push
 
 githubなどのリモートリポジトリに現在のファイルの状況を送る
@@ -49,5 +58,6 @@ githubなどのリモートリポジトリに現在のファイルの状況を�
 $ git pull
 
 githubなどのリモートリポジトリからファイルの状況を取ってきて適用する
+
 
 

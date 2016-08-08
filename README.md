@@ -77,3 +77,6 @@ $ git chechout ブランチ名
 ブランチに移動する(checkout)
 
 
+$ git merge ブランチ名
+
+対象のブランチをいまいるブランチに取り込む

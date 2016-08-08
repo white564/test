@@ -18,7 +18,17 @@ $ git log
 
 $ git diff
 
-コミットとの差分を確認する
+コミットとの差分を確認する(unstageなファイルとHEADを比較する)
+
+
+$ git diff —cached
+
+コミットとの差分を確認する(stagedなファイルとHEADを比較する)
+
+
+$ git diff A B
+
+AとBの差分を比較する。Bを省略するとHEAD(最新のコミット)になる。
 
 
 $ git add -A
